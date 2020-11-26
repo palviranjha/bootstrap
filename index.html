@@ -4,97 +4,195 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
     <style>
-        .position{
-            float: right;
+        .size{
+            width: 210px;
+            height: 70px;
+             
+        }
+        .leftBar{
+        background-color:skyblue;
+
+         }
+        .leftBarInner{
+        margin-top:10% ;
+        background-color:skyblue;
+        margin-right: 30%;
+        }
+
+        .icon{
+            width: 50px;
+            height: 50px;
+            border-radius: 50%
+            ;
+        }
+
+        
             
         }
-    </style>
+        .rocket{
+            width: 170px;
+            height: 170px;
+            border-radius: 50%;
+        }
+        .rightBar{
+            text-align: left;
+        } 
+        .btn{
+            width: 40%;
+            text-align:right;
+            margin-right: 30%;
+        }
+        .dp{
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+        }
+        .rightBarInner{
+            background-color: rgba(65, 11, 11, 0.575);
+        }
+        .chart{
+            width: 200px;
+            height: 200px;
+        }
 
+        }
+        .search
+        {
+            width: 500px;
+            margin-left: 100px;
+        }
+        .gen
+        {
+            background-color: rgb(53, 53, 155);
+            color: white;
+            float: right;
+            margin-top: 5px;
+            box-shadow: 0 0 20px 0 red;
+        }        
+        .generate
+        {
+            margin-left: 100px;
+            margin-right: 100px;
+        }
+    </style>
 </head>
 <body>
-    Company Name
-<span class="position">Features &nbsp;  Enterprice &nbsp;  Support &nbsp;   Prising &nbsp;
-   <button style="color: blue;border-color: blue;">Sign up</button>
-</span> 
-<hr>
-<h1><center>Pricing</center> </h1>
-<center> Quickly build an effective pricing table for your potential customers with this
-<br>
-Bootstrap example. It's built with default Bootstrap components and utilities with
-<br>
-little customization. </center>
-<center> <table border=" 1 " style="width: 100%;">
 
-<td> <center> <h1>Free</h1>  <br>
-        <hr>
-       <h5> <h1>$0/mo</h1> <br>
-        10 users included <br>
-        2GB of storage <br>
-        Email Support <br>
-        Help center access <br>
-    </h5> 
-    <button style="color: blue; border-color: blue;" > sign up for free</button>
-    </center>
-    </td>
+    <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand" href="#"><img src="C:\Users\lenovo\Desktop/IMG-20201124-WA0010.jpg" alt="dummy image" class="size"> </a>
 
-    <td> <center> <h1>Pro</h1> <br>
-    <hr>
-    <h5>
-        <h1>$15/mo</h1>
-        20 users included <br>
-        10GB of storager <br>
-        Priority email support <br>
-        Help center access <br>
-    </h5>
-    <button style="color: white; background:blue;width: 30%; height: 200%;" > Get started</button>
-    </center>
-    </td>
+        <input type="text" placeholder="Search.." class="search" >
+        <a> <img src="C:\Users\lenovo\Desktop/IMG-20200921-WA0005.jpg" alt="dummy image" class="dp"></a>
+      </nav>
+    <div class="row text-center">
+        <div class="col-md-2 leftBar">
+            <div class="leftBarInner">
+                 <h5>Dashboard</h5> <br>
+                 <hr>
+                     Intract <br>
+                       <h6>Components</h6> <br>
+                         <h6>Utilities</h6> <br>
+                        <hr> 
+                          Abouts <br>
+                        <h6>Pages</h6> <br>
+                          <h6>Charts</h6> <br>
+                          <h6>Tables</h6> <br>
+                   <hr>  
+                     <img src="C:\Users\lenovo\Desktop/IMG-20201124-WA0007.jpg" alt="dummy image" class="icon">
+                        <img src="C:\Users\lenovo\Desktop/IMG-20201124-WA0009.jpg" alt="dummy image" class="rocket">
+                             <h6>SB Admin Pro is packed with <br>
+                               premium features. <br>
+                                Components and more <br>
 
+                                  </h6>
+                                  <button>Upgrade to Pro</button>
 
-<td><center><h1>Enterprice</h1><br>
-    <hr> 
-    <h1>$29/mo</h1>
-    <h5>30 users included <br>
-        15 GB of storage <br>
-        Phone and email support <br>
-        Help center access <br>
+                    </div>
+              <div class="row">
+                 <div class="col-md-12 rightBar">
+                      <div class="rightBarInner">
+                         <h1>Dashboard</h1>
+                     <button class="gen">generate report</button>
+                  </div>
 
-    </h5>
-    <button style="color: white;background:blue;width: 30%;height: 200%;" >Contact us</button>
-    </center>
-</td>
-</table> </center>
-<hr>
-<table style="width: 100%;">
-<td>
-<button style="color:white;background-color:rgb(204, 0, 255);border-radius: 30%;"><h1>B</h1></button>
-<br>
-2017-2020
-</td>
-    <td>
-<h1>Features</h1>
-    cool stuff 
-    random Features <br>
-    team features <br>
-    stuff for developer <br>
-    another one <br>
-    last time 
-    </td>
-    <td>
-<h1>Resource</h1>
-    Resource <br>
-    resource Name <br>
-    another resource <br>
-    final resource
-    </td>
-    <td>
-<h1>About</h1>
-    Team 
-    Location <br>
-    Privacy <br>
-    Terms <br>
-</td>
-</table>
-</body>
-</html>
+               </div>   
+            </div>         
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="card">
+                       <br>Earning(Monthly)
+                       <h1>$40000</h1><br>
+                    </div><br><br>
+                </div>
+                <div class="row">
+                <div class="col-md-6">
+                    <div class="card">
+                        <br><font color="Green">Earning(Annual)</font>
+                        <h1>$215000</h1><br>
+                    </div><br><br>
+                </div>
+               </div>
+            </div>
+               <div class="row">
+                <div class="col-md-6">
+                    <div class="card ">
+                       Tasks
+                       <h1>50%</h1><br>
+                    </div>
+                </div>
+                <div class="row">
+                <div class="col-md-6>
+                    <div class="card">
+                        <br><font color="Green">Pending Requests</font>
+                        <h2>18</h2><br>
+                    </div>
+                </div>
+                </div>
+            </div><br>
+            <div class="row">
+                <div class="col-md-10">
+             <div class="card second">
+                 <div class="card-header">
+                     Earning overview
+                 <div class="card-body"><img src="C:\Users\lenovo\Desktop/IMG-20201124-WA0008.jpg" class="chart">
+                </div>
+                </div>
+                </div>
+                </div>
+
+             </div><br>
+             <div class="row">
+                 <div class="col-md-12">
+            <div class="card second">
+                <div class="card-header">Project</div>
+                <div class="card-body"><img src="C:\Users\lenovo\Desktop/IMG-20201124-WA0001.jpg" class="chart">
+                </div>
+                </div>
+                </div>
+               </div><br>
+               <div class="row">
+                   <div class="col-md-12">
+                    <div class="card differ">
+                      <div class="card-header">
+                           <h5>Primary</h5>
+                             #4e73df
+                       </div>
+                    </div>
+                  </div>
+               </div><br>
+                 <div class="row">
+                   <div class="col-md-12">
+                      <div class="card differt">
+                         <div class="card-header">
+                            <h5>Success</h5>
+                               #1cc88a
+                       </div>
+                 </div>
+          </div>
+       </div>
+      <br>
+  </body>
+ </html>
